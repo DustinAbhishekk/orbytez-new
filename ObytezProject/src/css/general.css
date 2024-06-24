@@ -90,7 +90,7 @@ body {
   font-weight: 500;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
@@ -181,6 +181,7 @@ a {
   color: var(--subheading-color);
   margin-bottom: 2.4rem;
   text-transform: uppercase;
+  position: relative ;
 }
 .heading-primary {
   font-size: 6.4rem;
