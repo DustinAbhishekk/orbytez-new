@@ -213,11 +213,11 @@
 .section-about {
   margin-top: 9.6rem;
   position: relative;
-  overflow:hidden;
+/*   overflow:hidden; */
 }
 .fade-svg {
   position: absolute;
-  bottom: 22%;
+  bottom: -15%;
   right: 55%;
 }
 
