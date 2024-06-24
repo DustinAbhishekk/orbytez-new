@@ -370,11 +370,10 @@
   text-align: center;
 }
 .strategy-box-group {
-  
-  justify-content: center;
+
   gap: 4.8rem;
-  padding: 2.4rem;
-  justify-items: end;
+  padding: 4rem;
+
 }
 .strategy-container {
   margin-top: 3rem;
@@ -428,15 +427,12 @@
   border: 2px solid #9999991b;
   padding: 1.2rem;
   border-radius: 9px;
+  width: 100%;
 
   background-color: rgba(250, 241, 229, 0.733);
 }
-.strategy-centre {
-  justify-content: center;
-}
-.strategy-end {
-  justify-content: end;
-}
+
+
 /**************************/
 /* PRICING SECTION */
 /**************************/

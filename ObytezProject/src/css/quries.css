@@ -415,6 +415,10 @@
   font-weight: 600;
   line-height: 1.5;
 }
+.strategy-box-group {
+  gap: 1.8rem;
+  padding: 1rem;
+}
   .skill-img img {
     width: 100%;
   }
