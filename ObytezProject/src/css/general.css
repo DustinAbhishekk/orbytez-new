@@ -175,8 +175,8 @@ a {
 }
 
 .subheading {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
   line-height: 1.7;
   color: var(--subheading-color);
   margin-bottom: 2.4rem;

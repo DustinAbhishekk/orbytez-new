@@ -216,8 +216,8 @@
 }
 .fade-svg {
   position: absolute;
-  bottom: -15%;
-  right: 55%;
+  bottom: 16%;
+  right: 52%;
 }
 
 .about-para {
@@ -328,7 +328,7 @@
   margin-top: 2rem;
   background-color: #6cb4ee;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 1.6rem;
   border-radius: 50%;
 }
@@ -771,6 +771,12 @@
   line-height: 1.6;
   font-weight: 400;
   color: #333;
+  margin-top: 2.4rem;
+}
+.form-info:hover{
+  color: #0000fada;
+  text-decoration: underline;
+
 }
 .form-info span {
   margin-left: 1.2rem;
@@ -822,7 +828,7 @@
   color: #767676;
   margin-top: auto;
   text-align: center;
-  margin-top: 8.4rem;
+  margin-top: 4.8rem;
 }
 
 .footer-heading {
@@ -858,7 +864,9 @@
 
 .footer-link:hover,
 .footer-link:active {
-  color: #555;
+  color: blue;
+  text-decoration: underline;
+
 }
 /* .subheading::after {
   content: "";
