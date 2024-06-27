@@ -1,24 +1,24 @@
 
+-- The name of website is
+   ORBYTEZ
 
---primary-color: #1f4e7f;
-  --primary-background-color: #0d2237;
-  --secondary-color: #d5e2f0;
-  --tertiary-color: #3ba287;
-  --subheading-color: #2c70b6;
-  --dark-color: #112f27;
-  --accent-color: ##f63e4a;
-  --white-color: #fff;
-  --gray-color: #333;
-}
+-- These colours are used to make website
 
-
-
-#3470b8
-
-
-#66b0fb
+    --primary-color: #1f4e7f;
+    --primary-background-color: #0d2237;
+    --secondary-color: #d5e2f0;
+    --tertiary-color: #3ba287;
+    --subheading-color: #2c70b6;
+    --dark-color: #112f27;
+    --accent-color: ##f63e4a;
+    --white-color: #fff;
+    --gray-color: #333;
 
 
+
+
+
+--- This is website services which company provide
 
 1. Define Your Objectives
     SMART Goals: Specific, Measurable, Achievable, Relevant, Time-bound.
@@ -63,5 +63,17 @@ Content Marketing: Create valuable, relevant content.
       Continuously refine your strategy for long-term success.
 
 
-+91-9818203403
-+91-7453085088
+
+--- This is the offical number of company
+    +91-9818203403
+    +91-7453085088
+
+
+-- PRICING TABLE
+    There are 3 pricing plan but currently commented cout the code due to not availablity of pricing ideas ! CSS AND HTML
+
+-- SKILL SECTION
+    It's also commented out ! CSS AND HTML
+
+-- FEATURES COMPANY
+    it is also commented out ! CSS AND HTML       

@@ -69,45 +69,15 @@
     display: none;
   }
   .header {
-    padding-top: 4.8rem;
+    padding-top: 1.2rem;
+    height: 8.4rem;
   }
   .logo {
     height: 6.4rem;
   }
-  .blob {
-    display: none;
+  .dots {
+    bottom: 27%;
   }
-  .hero {
-    grid-template-columns: 1fr;
-    padding: 0rem;
-    gap: 0rem;
-  }
-  .heading-hero h1 {
-    position: static;
-  }
-  .img-hero {
-    margin-top: 0;
-  }
-  .img-hero-box img {
-    width: 90%;
-    border-radius: 0px;
-}
-  .btn-group {
-    position: static;
-    margin-top: 4.8rem;
-  }
-  .img-hero-box {
-    position: static;
-  }
-  .heading-hero,
-  .img-hero-box {
-    text-align: center;
-  }
-
-  .hero-img {
-    width: 60%;
-  }
-
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -188,6 +158,9 @@
   .testimonial-avator {
     display: none;
   }
+  .section-about {
+    margin-top: 0rem;
+  }
   .about-para {
     font-size: 2rem;
   }
@@ -210,7 +183,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.5px;
-}
+  }
 }
 
 /**************************/
@@ -218,13 +191,6 @@
 /**************************/
 
 @media (max-width: 44em) {
-  .img-hero-box img {
-    width: 90%;
-    border-radius: 0px;
-}
-  .heading-hero {
-    margin-left: 0rem;
-  }
   .about-para {
     font-size: 1.2rem;
   }
@@ -262,7 +228,7 @@
     grid-template-rows: auto;
   }
 
-  #pricing-gold {
+  /* #pricing-gold {
     grid-column: 1 / span 2;
     justify-self: center;
   }
@@ -270,14 +236,14 @@
   .pricing-title {
     left: 27%;
     bottom: 92%;
-  }
+  } */
   .heading-secondary {
     margin-bottom: 4.8rem;
   }
 
-  .pricing-plan {
+  /* .pricing-plan {
     width: 100%;
-  }
+  } */
 
   .grid--footer {
     grid-template-columns: repeat(6, 1fr);
@@ -293,7 +259,7 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
-  .skill-img img {
+  /* .skill-img img {
     width: 70%;
   }
   .skill-img {
@@ -318,7 +284,7 @@
   }
   .skill-card-project {
     font-size: 1.8rem;
-  }
+  } */
   .avtaar-img {
     gap: 2.4rem;
     margin-top: 2.4rem;
@@ -332,9 +298,9 @@
     font-size: 1.4rem;
     font-weight: 400;
   }
-  .skill-heading .btn {
+  /* .skill-heading .btn {
     padding: 0.8rem 6.4rem;
-  }
+  } */
   .form-selection button {
     padding: 01rem 0.8rem;
     font-size: 1.2rem;
@@ -344,7 +310,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.5px;
-}
+  }
 }
 /**************************/
 /* BELOW 544px (Phones) */
@@ -354,16 +320,22 @@
   .grid {
     row-gap: 2rem;
   }
-  .heading-primary {
+  /* .heading-primary {
     font-size: 4rem;
-}
-.subheading {
-  font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
+} */
+  .subheading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
   .logo {
-    height: 5rem;
+    height: 4.8rem;
+  }
+  .slider {
+    height: 19.8rem;
+  }
+  .dots {
+    bottom: 4%;
   }
   .icon-mobile-nav {
     font-size: 2.4rem;
@@ -375,13 +347,16 @@
   .img-hero-box img {
     width: 90%;
     border-radius: 0px;
-}
-.about-img-box img {
-  margin-left: 0rem;
-  margin-top: 4rem;
-  width: 100%;
-  border-radius: 0px;
-}
+  }
+  .section-about {
+    margin-top: 6.4rem;
+  }
+  .about-img-box img {
+    margin-left: 0rem;
+    margin-top: 4rem;
+    width: 100%;
+    border-radius: 0px;
+  }
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
@@ -389,10 +364,10 @@
     justify-items: center;
   }
 
-  #pricing-gold {
+  /* #pricing-gold {
     grid-column: 1;
-    /* justify-self: left; */
-  }
+    /* justify-self: left; 
+  } */
   .card-collection {
     flex-direction: column;
     align-items: center;
@@ -402,24 +377,23 @@
   }
   .strategy-centre img {
     width: 70%;
-}
-.strategy-box{
-  
+  }
+  .strategy-box {
     display: flex;
     gap: 1.2rem;
     text-align: center;
     justify-content: center;
-}
-.strategy-title {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-.strategy-box-group {
-  gap: 1.8rem;
-  padding: 1rem;
-}
-  .skill-img img {
+  }
+  .strategy-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .strategy-box-group {
+    gap: 1.8rem;
+    padding: 1rem;
+  }
+  /* .skill-img img {
     width: 100%;
   }
   .skill-heading h2 {
@@ -438,14 +412,14 @@
     display: flex;
     gap: 1.8rem;
     flex-direction: column;
-  }
+  } */
   .card:hover {
     transform: translateY(0rem);
     box-shadow: none;
   }
-  .skill-container {
+  /* .skill-container {
     padding: 0 1.2rem;
-  }
+  } */
   .avtaar img {
     height: 2rem;
     width: 2rem;
@@ -454,9 +428,9 @@
   .avtaar-text {
     font-size: 0.8rem;
   }
-  .skill-img {
+  /* .skill-img {
     left: 13%;
-  }
+  } */
   .testimonial-text {
     margin-top: 3.2rem;
     display: flex;
@@ -489,7 +463,7 @@
     bottom: 22%;
     right: 0;
   }
-  .fade-svg{
+  .fade-svg {
     display: none;
   }
   .heading-secondary {
@@ -508,11 +482,10 @@
     align-items: center;
     row-gap: 1rem;
   }
-  .form-selection button {
-    font-size: 0.8rem;
+
+  #service-provide option {
+    font-size: 1.4rem;
+    padding: 1.6rem 2rem;
+    margin-bottom: -0.8rem;
   }
 }
-
-/**************************/
-/* BELOW 400px (Phones) */
-/**************************/

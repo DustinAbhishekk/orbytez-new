@@ -107,9 +107,9 @@
     </button>
   </header>
 
-  <!-- /////////////////////////// HERO SECTION START HERE////////////// -->
   <main>
 
+    <!-- /////////////////////////// HERO SECTION START HERE////////////// -->
     <section class="section-hero">
       <div class="slider">
         <div class="slide">
@@ -128,34 +128,12 @@
         </div>
 
 
-        <button class="slider__btn slider__btn--left">&larr;</button>
-        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <!-- <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button> -->
         <div class="dots"></div>
       </div>
     </section>
-    <!-- <section class="section-hero">
-      <div class="hero">
-        <img class="blob" src="src/img/blob.svg" alt="" />
-        <div class="heading-hero">
-          <p class="subheading">CREATIVE & INNOVATIVE</p>
 
-          <h1 class="heading-primary">
-            Creative & 
-            Innovative Digital
-            Solution
-          </h1>
-
-          <div class="btn-group">
-            <a href="#form" class="btn hero-btn">Join Now</a>
-            <a href="#about" class="btn hero-btn ml">Learn More &darr;</a>
-          </div>
-        </div>
-        <div class="img-hero-box">
-          <img class="img-hero" src="/src/img/hero-section.jpg" alt="hero-image" />
-        </div>
-      </div>
-    </section> 
-  -->
 
     <!-- /////////////////////////// Features section start here////////////// -->
 
@@ -220,24 +198,11 @@
                 <i class="fa-solid fa-photo-film"></i><span class="tag-topic">Content Creator</span>
               </p>
 
-              <!-- <p>
-                <i class="fa-solid fa-magnifying-glass"></i><span class="tag-topic">SEO Strategies </span>
-              </p> -->
-              <!-- <p>
-                <i class="fa-solid fa-headset"></i><span class="tag-topic">24/7 Support </span>
-              </p> -->
             </div>
             <div class="tag-list-2">
               <p>
                 <i class="fa-solid fa-video"></i><span class="tag-topic">Video Editing</span>
               </p>
-              <!-- <p>
-                <i class="fa-solid fa-pen"></i>
-                <span class="tag-topic">Content Writing</span>
-              </p> -->
-              <!-- <p>
-                <i class="fa-brands fa-wordpress"></i><span class="tag-topic">Wordpress</span>
-              </p> -->
               <p>
                 <i class="fa-solid fa-money-bill-trend-up"></i><span class="tag-topic">Digital Marketing</span>
               </p>
@@ -257,14 +222,6 @@
           </p>
 
           <div class="about-btn">
-            <!-- <div class="about-icon-btn ">
-              <p> <i class="fa-solid fa-phone"></i></p>
-              <p class="ml">
-                Call to ask any question <br />
-                <span><a href="tel:+917453085088">+91-7453085088</a><br><a href="tel:+919818203403">+91-9818203403</a>
-                </span>
-              </p>
-            </div> -->
             <a href="#form" class="btns hero-btn ">Connect For More &rarr;</a>
           </div>
         </div>
@@ -783,13 +740,6 @@
               the first step toward achieving your business goals.</p>
 
 
-            <!-- <div class="about-icon-btn ">
-              <i class="fa-solid fa-phone"></i>
-              <p class="ml">
-                Call to ask any question <br />
-                <span><a href="tel:+918077477522">+91-8077477522</a> </span>
-              </p>
-            </div> -->
             <a href="mailto:info@orbytez.in" class="form-info"><i
                 class="fa-solid fa-envelope red form-info"></i><span>info@orbytez.in </span></a><br>
             <a href="https://shorturl.at/Sv4BO" class="form-info"><i
@@ -800,18 +750,36 @@
 
 
 
-          <div class="form-container">
-            <div class="form-selection grid grid--3-cols">
-              <p class="subheading">I'm interested in ...</p>
-              <button type="submit" class="btns hero-btn">ui/ux design</button>
-              <button type="submit" class="btns hero-btn">video graphic</button>
-              <button type="submit" class="btns hero-btn">web design</button>
-              <button type="submit" class="btns hero-btn">seo optimization</button>
-              <button type="submit" class="btns hero-btn">content writing</button>
-              <button type="submit" class="btns hero-btn">website development</button>
-              <button type="submit" class="btns hero-btn">others</button>
-            </div>
-            <form action="" class="form" id="form">
+
+          <form action="" class="form-container" id="form">
+
+            <p class="subheading">I'm interested in ...</p>
+            <select name="service-provide" id="service-provide" required multiple>
+
+              <optgroup>
+
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Web & App Development">Web & App Development</option>
+
+
+              </optgroup>
+
+              <optgroup>
+                <option value="Content Creator">Content Creator</option>
+                <option value="Video Editing">Video Editing</option>
+
+
+              </optgroup>
+              <optgroup>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Others">Others</option>
+
+              </optgroup>
+
+
+            </select>
+
+            <div class="form" id="form">
               <input type="text" name="name" id="person-name" placeholder="john carter" required formnovalidate>
 
               <input type="email" name="email" id="person-email" placeholder="john@gmail.com" required formnovalidate>
@@ -820,8 +788,8 @@
                 required></textarea>
 
               <button type="submit" class="btns hero-btn form-submit">Send Message</button>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
 
       </section>
@@ -907,9 +875,7 @@
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+
 
 </body>
 
