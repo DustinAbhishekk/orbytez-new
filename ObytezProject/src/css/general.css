@@ -148,7 +148,7 @@ a {
 .red:hover {
   color: #ff0000;
 }
-.btn {
+.btns {
   /* background: linear-gradient(
     90deg,
     rgba(44, 112, 182, 1) 0%,
@@ -165,7 +165,7 @@ a {
   cursor: pointer;
   overflow: hidden;
 }
-.btn:hover {
+.btns:hover {
   background: linear-gradient(
     90deg,
     rgba(52, 112, 184, 1) 0%,
