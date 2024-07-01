@@ -1,0 +1,726 @@
+
+
+const index = `
+        <!-- /////////////////////////// HERO SECTION START HERE////////////// -->
+        <section class="section-hero">
+            <div class="slider">
+                <div class="slide">
+
+                    <img src="/src/img/Slider/Banner1.png" alt="">
+                </div>
+                <div class="slide">
+
+                    <img src="src/img/Slider/Banner2.png" alt="">
+                </div>
+
+
+                <div class="slide">
+
+                    <img src="src/img/Slider/banner3.png" alt="">
+                </div>
+
+
+                <!-- <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button> -->
+                <div class="dots"></div>
+            </div>
+        </section>
+
+
+        <!-- /////////////////////////// Features section start here////////////// -->
+
+
+        <!-- <section class="section-features" id="feature">
+      <div class="subheading-features">
+        <p class="subheading">As Features Company</p>
+      </div>
+      <div class="feature-logos">
+        <div class="feature-logo">
+          <img src="/src/img/logo/vendor-1.jpg" alt="" />
+          <img src="/src/img/logo/vendor-2.jpg" alt="" />
+          <img src="/src/img/logo/vendor-3.jpg" alt="" />
+          <img src="/src/img/logo/vendor-4.jpg" alt="" />
+          <img src="/src/img/logo/vendor-5.jpg" alt="" />
+        </div>
+        <div class="feature-logo">
+          <img src="/src/img/logo/vendor-5.jpg" alt="" />
+          <img src="/src/img/logo/vendor-6.jpg" alt="" />
+          <img src="/src/img/logo/vendor-7.jpg" alt="" />
+          <img src="/src/img/logo/vendor-8.jpg" alt="" />
+          <img src="/src/img/logo/vendor-9.jpg" alt="" />
+        </div>
+      </div>
+    </section> -->
+
+        <!-- /////////////////////////// ABOUT SECITON START HERE ////////////// -->
+        <section class="section-about" id="about">
+            <img src="/src/img/transparents.svg" alt="" class="fade-svg">
+            <div class="container grid grid--2-cols">
+                <div class="about-text-box">
+                    <p class="subheading">As Features Company</p>
+                    <h2 class="heading-secondary">
+                        Embracing Your Digital Future with Orbytez
+                    </h2>
+                    <p class="about-para">
+                        With a decade of rich experience, Orbytez is a leader in the IT
+                        industry, specialized in providing cutting-edge solutions tailored
+                        to the digital needs of businesses today. Since our inception, we
+                        have been committed to excellence, embracing innovation to empower
+                        businesses through technology. <br /><br />
+                        At Orbytez, we understand that the digital landscape is constantly
+                        evolving. Our team is equipped with deep expertise in a variety of
+                        digital services to ensure we can handle every aspect of your online
+                        presence. From the initial design phase to the final touches that
+                        make your project stand out, we are here to deliver superior
+                        results.
+                    </p>
+
+                    <div class="about-tag">
+                        <div class="tag-list-1">
+                            <p>
+                                <i class="fa-solid fa-laptop"></i><span class="tag-topic">Graphic Design </span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-code"></i><span class="tag-topic">Website & Application
+                                    Development</span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-person-dots-from-line"></i><span class="tag-topic">Motion graphic
+                                    Design</span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-photo-film"></i><span class="tag-topic">Content Creator</span>
+                            </p>
+
+                        </div>
+                        <div class="tag-list-2">
+                            <p>
+                                <i class="fa-solid fa-video"></i><span class="tag-topic">Video Editing</span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-money-bill-trend-up"></i><span class="tag-topic">Digital
+                                    Marketing</span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-print"></i><span class="tag-topic">Print Media Desiging</span>
+                            </p>
+                            <p>
+                                <i class="fa-brands fa-gratipay"></i><span class="tag-topic">Social Media
+                                    Management</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <p class="about-support">
+                        <i class="fa-solid fa-headset"></i><span class="tag-imp">24/7 Support </span>
+                    </p>
+
+                    <div class="about-btn">
+                        <a href="#form" class="btns hero-btn ">Connect For More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="about-img-box ml">
+                    <img src="/src/img/about-section.jpg" alt="" />
+                </div>
+        </section>
+
+
+        <!-- /////////////////////////// SERVICES SECITON START HERE ////////////// -->
+
+        <section class="section-services" id="service">
+
+            <div class="services-heading">
+                <p class="subheading">OUR SERVICES</p>
+                <h2 class="heading-secondary">
+                    Custom IT Solutions for Your <br> Successful Business
+                </h2>
+            </div>
+            <div class="container">
+
+                <div class="card-collection ">
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-laptop"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Graphic Design</h5>
+                            <p class="card-text">
+                                Make a lasting impression with our graphic design services. Whether you need a new logo,
+                                business cards,
+                                brochures, or digital graphics, Orbytez’s creative team delivers visually stunning
+                                designs that reflect
+                                your brand identity and message.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="card card-up">
+                        <span class="card-icon ">
+                            <i class="fa-solid fa-code"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Website & Application Development</h5>
+                            <p class="card-text">
+                                Orbytez specializes in developing user-friendly, responsive websites and applications.
+                                Our focus is on
+                                intuitive design,
+                                seamless user experience, and robust functionality. We optimize for speed and security
+                                to enhance
+                                performance and user
+                                satisfaction.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-person-dots-from-line"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Motion graphic Design</h5>
+                            <p class="card-text">
+                                Motion graphic design combines graphic elements and animation to create dynamic visual
+                                content, widely
+                                used in
+                                advertisements, presentations, and user interfaces for effective communication and
+                                engagement.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="card card-up">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-photo-film"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Content Creator</h5>
+                            <p class="card-text">
+                                A content creator produces engaging and informative material, including articles,
+                                videos, and social
+                                media posts, to
+                                effectively connect with and engage audiences across various platforms.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="card-collection">
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Video Editing</h5>
+                            <p class="card-text">
+                                Video editing at Orbytez: where creativity meets precision, transforming footage into
+                                captivating
+                                narratives with
+                                professional expertise and innovative techniques.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card card-up">
+                        <span class="card-icon">
+                            <i class="fa-brands fa-gratipay"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Social Media Management</h5>
+                            <p class="card-text">
+                                Orbytez's digital marketing strategy includes SEO, content creation, social media
+                                promotion, PPC ads,
+                                email campaigns,
+                                and influencer collaborations to boost visibility and sales.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">
+                                Capture your audience with compelling video content. Orbytez offers everything from
+                                corporate videos and
+                                animated explainers to customer testimonials and product walkthroughs. Let us help you
+                                tell your story
+                                in
+                                a way that resonates and engages.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card card-up">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-print"></i>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">Print Media Desiging</h5>
+                            <p class="card-text">
+                                At Orbytez, we excel in creating eye-catching designs for printed materials like
+                                brochures, posters, and
+                                ads, ensuring
+                                your message stands out effectively.</p>
+                            <a href="#" class="card-link">More &rarr;</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- /////////////////////////// STRATEGY SECITON START HERE ////////////// -->
+
+        <section class="section-strategy" id="price">
+
+            <div class="strategy-heading">
+                <p class="subheading">how will we work</p>
+                <h2 class="heading-secondary">
+                    Our Strategy <br>
+                </h2>
+
+                <div class=" strategy-box-group grid grid--3-cols">
+                    <div class="strategy-box">
+                        <div class="strategy-container flex">
+
+                            <p class="strategy-step">1</p>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Define Your Objectives</h6>
+                                <p class="strategy-des"><span>SMART Goals:</span> Specific, Measurable, Achievable,
+                                    Relevant,
+                                    Time-bound.
+                                    <br> <span>Example:</span> Increase online sales by 20% within the next 6 months.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <p class="strategy-step">2</p>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Know Your Audience</h6>
+                                <p class="strategy-des"><span>Customer Personas:</span> Detailed profiles of your target
+                                    customers.
+                                    <br> <span>Market Research: </span> Understand their needs, behaviors, and
+                                    preferences.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <div class="strategy-step">
+                                <p>3</p>
+                            </div>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Choose Your Digital Channels</h6>
+                                <p class="strategy-des"><span>Website:</span> Foundation of your online presence.
+                                    <br> <span>SEO (Search Engine Optimization):</span> Improve visibility in search
+                                    engines.
+                                    <br> <span>Content Marketing:</span> Create valuable, relevant content.
+                                    <br> <span>Social Media:</span> Engage with your audience on platforms they use.
+                                    <br> <span>Email Marketing:</span> Nurture leads and maintain customer
+                                    relationships.
+                                    <br> <span>PPC Advertising: </span> Paid campaigns for immediate visibility.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <p class="strategy-step">4</p>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Content Strategy</h6>
+                                <p class="strategy-des"><span>Content Calendar:</span> Plan content creation and
+                                    distribution.
+                                    <br> <span>Types of Content: </span> Blogs, videos, infographics, etc.
+                                    <br> <span>Value Proposition: </span> Clearly communicate what sets your brand
+                                    apart.
+
+
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="strategy-container flex strategy">
+
+                            <div class="strategy-step">
+                                <p>5</p>
+                            </div>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title"> Budget and Resource Allocation</h6>
+                                <p class="strategy-des">&#x2022; Allocate budget based on channels that yield the best
+                                    ROI.
+                                    <br>&#x2022; Consider outsourcing or hiring specialists if needed.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="strategy-centre">
+
+                        <img src="/src/img/6166060.jpg" alt="">
+
+                    </div>
+                    <div class="strategy-box">
+
+                        <div class="strategy-container flex strategy">
+
+                            <p class="strategy-step">6</p>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title"> Implementation and Execution</h6>
+                                <p class="strategy-des">&#x2022; Execute your plan consistently and monitor performance.
+                                    <br>&#x2022; Use analytics to track KPIs (Key Performance Indicators).
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <div class="strategy-step">
+                                <p>7</p>
+                            </div>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Monitor and Optimize</h6>
+                                <p class="strategy-des">&#x2022; Regularly review performance against goals.
+                                    <br>&#x2022; A/B testing for ads and landing pages.
+                                    <br>&#x2022; Adjust strategies based on insights gained.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <p class="strategy-step">8</p>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Integration with Overall Marketing Strategy</h6>
+                                <p class="strategy-des">&#x2022; Ensure consistency across all marketing channels.
+                                    <br>&#x2022; Align digital efforts with broader business objectives.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <div class="strategy-step">
+                                <p>9</p>
+                            </div>
+
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Stay Updated</h6>
+                                <p class="strategy-des">&#x2022; Keep abreast of digital marketing trends and tools.
+                                    <br>&#x2022; Adapt strategies to changes in technology and consumer behavior.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="strategy-container flex strategy">
+
+                            <p class="strategy-step">10</p>
+                            <div class="Strategy-box">
+                                <h6 class="strategy-title">Evaluate and Evolve</h6>
+                                <p class="strategy-des">&#x2022; Learn from successes and failures.
+                                    <br>&#x2022; Continuously refine your strategy for long-term success.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+
+            <!-- /////////////////////////// PRICING SECITON START HERE ////////////// -->
+
+            <!-- <section class="section-pricing" id="price">
+
+        <div class="pricing-heading">
+          <p class="subheading">Pricing Plans</p>
+          <h2 class="heading-secondary">
+            Quality Solutions at <br> Competitive Prices
+          </h2>
+        </div>
+
+
+        <div class="container grid grid--3-cols h-2">
+          <div class="card-collection pricing-collection " id="pricing-basic">
+            <div class="card ">
+              <div class="pricing-card price-basic">
+                <p>for smalll business size</p>
+                <h4>Basic</h4>
+
+              </div>
+              <div class="card-body pricing-body">
+                <h5 class="card-title pricing-title price-basic-title"><span class="dollar">$</span>49.00<span
+                    class="month">/ Month</span></h5>
+                <div class="card-text pricing-text">
+                  <div class="pricing-menu">
+                    <p>HTML5 & CSS3</p>
+                    <p>Bootstrap v5</p>
+                    <p>Responsive Layout</p>
+                    <p>Cross-browser Support</p>
+                  </div>
+                  <div class="pricing-tag">
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                  </div>
+
+                </div>
+                <a href="#" class="btn pricing-btn price-basic-btn">Subscribe Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-collection pricing-collection " id=" pricing-premium">
+            <div class="card ">
+              <div class="pricing-card price-premium">
+                <p>for Medium business size</p>
+                <h4>Premium</h4>
+
+              </div>
+              <div class="card-body pricing-body">
+                <h5 class="card-title pricing-title price-premium-title"><span class="dollar">$</span>99.00<span
+                    class="month">/ Month</span></h5>
+                <div class="card-text pricing-text">
+                  <div class="pricing-menu">
+                    <p>HTML5 & CSS3</p>
+                    <p>Bootstrap v5</p>
+                    <p>Responsive Layout</p>
+                    <p>Cross-browser Support</p>
+                  </div>
+                  <div class="pricing-tag">
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                  </div>
+
+                </div>
+                <a href="#" class="btn pricing-btn price-premium-btn">Subscribe Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-collection pricing-collection " id="pricing-gold">
+            <div class="card ">
+              <div class="pricing-card price-gold">
+                <p>for large business size</p>
+                <h4>Gold</h4>
+
+              </div>
+              <div class="card-body pricing-body">
+                <h5 class="card-title pricing-title price-gold-title"><span
+                    class="dollar dollar-gold">$</span>149.00<span class="month">/ Month</span></h5>
+                <div class="card-text pricing-text">
+                  <div class="pricing-menu">
+                    <p>HTML5 & CSS3</p>
+                    <p>Bootstrap v5</p>
+                    <p>Responsive Layout</p>
+                    <p>Cross-browser Support</p>
+                  </div>
+                  <div class="pricing-tag">
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                  </div>
+
+                </div>
+                <a href="#" class="btn pricing-btn price-gold-btn">Subscribe Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+            <!-- /////////////////////////// SKILL SECTION START HERE ////////////// -->
+            <!-- <section class="section-skill">
+      <div class="container skill-container">
+        <div class="skill-heading ">
+          <p class="subheading">OUR SKILLS</p>
+          <h2 class="heading-secondary">
+            Catalyzing Exponential Business <br> Growth
+          </h2>
+
+          <div class="skill-group">
+            <div class="skill-card">
+              <p class="skill-card-project"><span>Projects Done</span><br> 15</p>
+            </div>
+            <div class="skill-card">
+              <p class="skill-card-project"><span>Project Running</span><br> 7</p>
+            </div>
+
+          </div>
+          <div class="avtaar-img">
+            <div class="avtaar">
+              <img src="/src/img/avtaar/customer-1.jpg" alt="Customer photo" />
+              <img src="/src/img/avtaar/customer-2.jpg" alt="Customer photo" />
+              <img src="/src/img/avtaar/customer-3.jpg" alt="Customer photo" />
+              <img src="/src/img/avtaar/customer-4.jpg" alt="Customer photo" />
+              <img src="/src/img/avtaar/customer-5.jpg" alt="Customer photo" />
+              <img src="/src/img/avtaar/customer-6.jpg" alt="Customer photo" />
+            </div>
+            <p class="avtaar-text">
+              <span>1,000+</span> Pepople reach out this year!
+            </p>
+          </div>
+          <a href="#form" class="btn hero-btn ">Let's Talk!</a>
+        </div>
+
+        <div class="skill-img">
+          <img src="/src/img/skill.png" alt="">
+        </div>
+
+
+      </div>
+    </section> -->
+            <!-- /////////////////////////// TESTIMONIAL SECTION START HERE ////////////// -->
+
+            <section class="section-testimonial" id="testimonial">
+                <div class="testimonial-heading ">
+                    <p class="subheading">TESTIMONIAL</p>
+                    <h2 class="heading-secondary">
+                        Discover What Our Clients Say <br> About Orbytez Growth
+                    </h2>
+                </div>
+                <div class="container testimonial-container">
+                    <div class="testimonial grid grid--3-cols">
+                        <div class="testimonial-img">
+
+                            <img src="/src/img/testimonial/testimonial-1.png" alt="" class="testimonial-hero">
+
+
+                        </div>
+                        <div class="testimonial-text">
+                            <ul class="testimonial-icon">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            </ul>
+                            <h6 class="testimonial-des about-para">"You’re really good at following up with the client
+                                so as to ensure
+                                that they are never left in the dark. Keep it up!!"</h6>
+                            <h6 class="testimonial-author">&#45; Dustin abhishek</h6>
+                        </div>
+                        <div class="testimonial-avator">
+                            <div class="avtaar-img-1"><img src="src/img/avtaar/customer-1.jpg" alt=""></div>
+                            <div class="avtaar-img-2"><img src="src/img/avtaar/customer-2.jpg" alt=""></div>
+                            <div class="avtaar-img-3"><img src="src/img/avtaar/customer-3.jpg" alt=""></div>
+                            <div class="avtaar-img-4"><img src="src/img/avtaar/customer-4.jpg" alt=""></div>
+                            <div class="avtaar-img-5"><img src="src/img/avtaar/customer-5.jpg" alt=""></div>
+                            <div class="avtaar-img-6"><img src="src/img/avtaar/customer-6.jpg" alt=""></div>
+                            <div class="avtaar-img-7"><img src="src/img/avtaar/customer-7.jpg" alt=""></div>
+                            <div class="avtaar-img-8"><img src="src/img/avtaar/customer-8.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- /////////////////////////// FORM SECTION START HERE ////////////// -->
+
+            <section class="section-form" id="form">
+                <div class="container grid grid--2-cols">
+                    <div class="form-heading">
+
+                        <p class="subheading">Contact Us</p>
+                        <h2 class="heading-secondary">
+                            Let's discuss on something cool together
+                        </h2>
+                        <div class="about-tag form-tag">
+                            <div class="tag-list-1">
+                                <p class="mob-para">
+                                    <i class="fa-solid fa-reply"></i><span class="tag-topic">Fast and Friendly Service
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="tag-list-2">
+                                <p class="mob-para">
+                                    <i class="fa-solid fa-phone"></i><span class="tag-topic">24/7 Telephone
+                                        Support</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <p class="about-para">At Orbytez, we're committed to providing transparent pricing and
+                            exceptional service.
+                            Whether you're
+                            exploring new
+                            digital solutions or looking to enhance your existing systems, we're here to help. Request a
+                            free quote
+                            today
+                            and take
+                            the first step toward achieving your business goals.</p>
+
+
+                        <a href="mailto:info@orbytez.in" class="form-info"><i
+                                class="fa-solid fa-envelope red form-info"></i><span>info@orbytez.in </span></a><br>
+                        <a href="https://shorturl.at/Sv4BO" class="form-info"><i
+                                class="fa-solid fa-location-dot red"></i><span>Noida,
+                                India
+                            </span></a>
+                    </div>
+
+
+
+
+                    <form action="" class="form-container" id="form">
+
+                        <p class="subheading">I'm interested in ...</p>
+                        <select name="service-provide" id="service-provide" required multiple>
+
+                            <optgroup>
+
+                                <option value="Graphic Design">Graphic Design</option>
+                                <option value="Web & App Development">Web & App Development</option>
+
+
+                            </optgroup>
+
+                            <optgroup>
+                                <option value="Content Creator">Content Creator</option>
+                                <option value="Video Editing">Video Editing</option>
+
+
+                            </optgroup>
+                            <optgroup>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Others">Others</option>
+
+                            </optgroup>
+
+
+                        </select>
+
+                        <div class="form" id="form">
+                            <input type="text" name="name" id="person-name" placeholder="john carter" required
+                                formnovalidate>
+
+                            <input type="email" name="email" id="person-email" placeholder="john@gmail.com" required
+                                formnovalidate>
+
+                            <textarea name="description" id="person-message" placeholder="Please write your concern !"
+                                required></textarea>
+
+                            <button type="submit" class="btns hero-btn form-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </section>
+    <!-- /////////////////////////// FOOTER SECTION START HERE ////////////// -->
+   
+
+
+
+`;
+
+export default index;

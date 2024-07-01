@@ -107,6 +107,7 @@ body {
 
 .grid {
   display: grid;
+  gap: 1.2rem;
   /* column-gap: 6.4rem;
   row-gap: 9.6rem; */
   /* gap: 9.6rem; */

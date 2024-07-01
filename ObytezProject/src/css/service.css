@@ -1,0 +1,166 @@
+.service {
+  margin: 9.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-head {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #e9edf2b2;
+  padding: 1.2rem 1.8rem;
+  border-radius: 80px;
+  font-weight: 600;
+}
+
+.heading-primary {
+  margin-top: 2.4rem;
+}
+
+.service-text {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #777;
+  margin-top: 1.8rem;
+  line-height: 1.7;
+}
+
+.heading-secondary {
+  font-weight: 600 !important;
+}
+
+.card {
+  margin-top: 4.8rem;
+  margin-bottom: 8.4rem;
+  padding: 2.4rem;
+  width: 28rem;
+  text-align: center;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.04);
+  border: 2px solid #99999918;
+  border-radius: 15px;
+}
+
+.card-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 2.4rem;
+  color: 333;
+}
+
+.card-text {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-top: 2rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #333;
+}
+
+/**************************/
+/*  SECTION WHY CHOOSE US */
+/**************************/
+.section-work {
+  margin: 6.4rem 0 6.4rem 9.6rem;
+}
+
+.work-heading {
+  margin-top: 3.2rem;
+}
+
+.service-head-step {
+  margin-top: 4.8rem;
+}
+
+.service-head-step span {
+  font-size: 1.6rem;
+  color: #333;
+  margin-left: 2.4rem;
+}
+
+.service-head-step i {
+  font-size: 1.4rem;
+  color: green;
+}
+
+.service-para {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.4rem;
+  margin-left: 4rem;
+  line-height: 1.7;
+}
+
+.work-image img {
+  width: 100%;
+}
+
+/**************************/
+/*  SECTION contact */
+/**************************/
+.section-contact {
+  margin-bottom: 4.8rem;
+  background: url("/src/img/Service/bg-5-1.jpg");
+  background-size: cover;
+}
+
+.contact {
+  text-align: center;
+  padding: 6.4rem 0;
+}
+.contact .heading-primary{
+  color: #fff;
+}
+.heading-primary span{
+  color: #ffc000;
+}
+
+.contact p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin-top: 3.2rem;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.contact-form {
+  text-align: center;
+  padding-bottom: 9.6rem;
+}
+
+.contact-form-input {
+  width: 50rem;
+  border-radius: 35px 0px 0px 35px;
+  padding: 22px 26px 21px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  outline: none;
+}
+
+.contact-btn {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 21.6px;
+  letter-spacing: -0.9px;
+  background-color: #ffc000;
+  color: #ffffff;
+  padding: 20px 75px 20px 75px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 0px 35px 35px 0px;
+  border: none;
+  margin-left: -3px;
+}
+.contact-btn:hover{
+background-color:black;
+}
+::placeholder{
+  font-size: 1.8rem;
+}

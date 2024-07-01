@@ -4,32 +4,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- for favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/src/img/favicon_package_v0.16/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/src/img/favicon_package_v0.16/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/src/img/favicon_package_v0.16/favicon-16x16.png" />
   <link rel="manifest" href="/src/img/favicon_package_v0.16/site.webmanifest" />
   <link rel="mask-icon" href="/src/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5" />
   <meta name="msapplication-TileColor" content="#da532c" />
+  <!-- for fonts -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+    <!-- for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  
 
 
 
   <link rel="stylesheet" href="src/css/general.css" />
   <link rel="stylesheet" href="src/css/style.css" />
   <link rel="stylesheet" href="src/css/quries.css" />
+  <link rel="stylesheet" href="/src/css/service.css">
 
 
-  <script src="/src/js/index.js" defer></script>
+  <!-- <script src="/src/js/index.js" defer></script> -->
+  <script src="/src/js/script.js" type="module" defer></script>
 
 
   <title>Orbytez</title>
@@ -45,10 +49,10 @@
             </span></a>
         </li>
         <!-- <li class="link-item">
-          <a href="tel:+918077477522"><i class="fa-solid fa-phone blue"></i><span>+91-8077477522</span></a>
-        </li> -->
+            <a href="tel:+918077477522"><i class="fa-solid fa-phone blue"></i><span>+91-8077477522</span></a>
+          </li> -->
         <li class="link-item">
-          <a href="mailto:info@orbytez.in"><i class="fa-solid fa-envelope red"></i><span>info@orbytez.in </span></a>
+          <a href="mailto:info@orbytez.com"><i class="fa-solid fa-envelope red"></i><span>info@orbytez.in </span></a>
         </li>
       </ul>
     </div>
@@ -77,25 +81,35 @@
 
   <header class="header">
     <a href="#">
-      <img class="logo" alt="Omnifood logo" src="src/img/logo/logo.png" />
+      <img class="logo" alt="orbytez logo" src="src/img/logo/logo.png" />
     </a>
 
     <nav class="main-nav">
       <ul class="main-nav-list">
         <li>
-          <a href="#" class="main-nav-link">Home</a>
+          <a href="" id="home" class="main-nav-link">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about" class="main-nav-link">About</a>
+          <a href="#about" class="main-nav-link">
+            About
+          </a>
         </li>
         <li>
-          <a href="#testimonial" class="main-nav-link">Blog</a>
+          <a href="#testimonial" class="main-nav-link">
+            Blog
+          </a>
         </li>
         <li>
-          <a href="#price" class="main-nav-link">Services</a>
+          <a href="/src/js/service.html" id="services" class="main-nav-link">
+            Services
+          </a>
         </li>
         <li>
-          <a href="#form" class="btns btn-contact main-nav-link">Contact</a>
+          <a href="#form" class="btns btn-contact main-nav-link">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
@@ -103,12 +117,10 @@
     <button class="btn-mobile-nav">
       <i class="fa-solid fa-bars icon-mobile-nav" name="menu-outline"></i>
       <i class="fa-solid fa-xmark icon-mobile-nav" name="close-outline"></i>
-
     </button>
   </header>
 
-  <main>
-
+  <main class="section-main">
     <!-- /////////////////////////// HERO SECTION START HERE////////////// -->
     <section class="section-hero">
       <div class="slider">
@@ -118,18 +130,18 @@
         </div>
         <div class="slide">
 
-          <img src="/src/img/Slider/Banner2.png" alt="">
+          <img src="src/img/Slider/Banner2.png" alt="">
         </div>
 
 
         <div class="slide">
 
-          <img src="/src/img/Slider/banner3.png" alt="">
+          <img src="src/img/Slider/banner3.png" alt="">
         </div>
 
 
         <!-- <button class="slider__btn slider__btn--left">&larr;</button>
-        <button class="slider__btn slider__btn--right">&rarr;</button> -->
+            <button class="slider__btn slider__btn--right">&rarr;</button> -->
         <div class="dots"></div>
       </div>
     </section>
@@ -139,26 +151,26 @@
 
 
     <!-- <section class="section-features" id="feature">
-      <div class="subheading-features">
-        <p class="subheading">As Features Company</p>
-      </div>
-      <div class="feature-logos">
-        <div class="feature-logo">
-          <img src="/src/img/logo/vendor-1.jpg" alt="" />
-          <img src="/src/img/logo/vendor-2.jpg" alt="" />
-          <img src="/src/img/logo/vendor-3.jpg" alt="" />
-          <img src="/src/img/logo/vendor-4.jpg" alt="" />
-          <img src="/src/img/logo/vendor-5.jpg" alt="" />
-        </div>
-        <div class="feature-logo">
-          <img src="/src/img/logo/vendor-5.jpg" alt="" />
-          <img src="/src/img/logo/vendor-6.jpg" alt="" />
-          <img src="/src/img/logo/vendor-7.jpg" alt="" />
-          <img src="/src/img/logo/vendor-8.jpg" alt="" />
-          <img src="/src/img/logo/vendor-9.jpg" alt="" />
-        </div>
-      </div>
-    </section> -->
+          <div class="subheading-features">
+            <p class="subheading">As Features Company</p>
+          </div>
+          <div class="feature-logos">
+            <div class="feature-logo">
+              <img src="/src/img/logo/vendor-1.jpg" alt="" />
+              <img src="/src/img/logo/vendor-2.jpg" alt="" />
+              <img src="/src/img/logo/vendor-3.jpg" alt="" />
+              <img src="/src/img/logo/vendor-4.jpg" alt="" />
+              <img src="/src/img/logo/vendor-5.jpg" alt="" />
+            </div>
+            <div class="feature-logo">
+              <img src="/src/img/logo/vendor-5.jpg" alt="" />
+              <img src="/src/img/logo/vendor-6.jpg" alt="" />
+              <img src="/src/img/logo/vendor-7.jpg" alt="" />
+              <img src="/src/img/logo/vendor-8.jpg" alt="" />
+              <img src="/src/img/logo/vendor-9.jpg" alt="" />
+            </div>
+          </div>
+        </section> -->
 
     <!-- /////////////////////////// ABOUT SECITON START HERE ////////////// -->
     <section class="section-about" id="about">
@@ -189,10 +201,12 @@
                 <i class="fa-solid fa-laptop"></i><span class="tag-topic">Graphic Design </span>
               </p>
               <p>
-                <i class="fa-solid fa-code"></i><span class="tag-topic">Website & Application Development</span>
+                <i class="fa-solid fa-code"></i><span class="tag-topic">Website & Application
+                  Development</span>
               </p>
               <p>
-                <i class="fa-solid fa-person-dots-from-line"></i><span class="tag-topic">Motion graphic Design</span>
+                <i class="fa-solid fa-person-dots-from-line"></i><span class="tag-topic">Motion graphic
+                  Design</span>
               </p>
               <p>
                 <i class="fa-solid fa-photo-film"></i><span class="tag-topic">Content Creator</span>
@@ -204,13 +218,15 @@
                 <i class="fa-solid fa-video"></i><span class="tag-topic">Video Editing</span>
               </p>
               <p>
-                <i class="fa-solid fa-money-bill-trend-up"></i><span class="tag-topic">Digital Marketing</span>
+                <i class="fa-solid fa-money-bill-trend-up"></i><span class="tag-topic">Digital
+                  Marketing</span>
               </p>
               <p>
                 <i class="fa-solid fa-print"></i><span class="tag-topic">Print Media Desiging</span>
               </p>
               <p>
-                <i class="fa-brands fa-gratipay"></i><span class="tag-topic">Social Media Management</span>
+                <i class="fa-brands fa-gratipay"></i><span class="tag-topic">Social Media
+                  Management</span>
               </p>
             </div>
 
@@ -252,8 +268,10 @@
             <div class="card-body">
               <h5 class="card-title">Graphic Design</h5>
               <p class="card-text">
-                Make a lasting impression with our graphic design services. Whether you need a new logo, business cards,
-                brochures, or digital graphics, Orbytez’s creative team delivers visually stunning designs that reflect
+                Make a lasting impression with our graphic design services. Whether you need a new logo,
+                business cards,
+                brochures, or digital graphics, Orbytez’s creative team delivers visually stunning
+                designs that reflect
                 your brand identity and message.</p>
               <a href="#" class="card-link">More &rarr;</a>
             </div>
@@ -266,9 +284,11 @@
             <div class="card-body">
               <h5 class="card-title">Website & Application Development</h5>
               <p class="card-text">
-                Orbytez specializes in developing user-friendly, responsive websites and applications. Our focus is on
+                Orbytez specializes in developing user-friendly, responsive websites and applications.
+                Our focus is on
                 intuitive design,
-                seamless user experience, and robust functionality. We optimize for speed and security to enhance
+                seamless user experience, and robust functionality. We optimize for speed and security
+                to enhance
                 performance and user
                 satisfaction.</p>
               <a href="#" class="card-link">More &rarr;</a>
@@ -281,9 +301,11 @@
             <div class="card-body">
               <h5 class="card-title">Motion graphic Design</h5>
               <p class="card-text">
-                Motion graphic design combines graphic elements and animation to create dynamic visual content, widely
+                Motion graphic design combines graphic elements and animation to create dynamic visual
+                content, widely
                 used in
-                advertisements, presentations, and user interfaces for effective communication and engagement.</p>
+                advertisements, presentations, and user interfaces for effective communication and
+                engagement.</p>
               <a href="#" class="card-link">More &rarr;</a>
             </div>
           </div>
@@ -295,7 +317,8 @@
             <div class="card-body">
               <h5 class="card-title">Content Creator</h5>
               <p class="card-text">
-                A content creator produces engaging and informative material, including articles, videos, and social
+                A content creator produces engaging and informative material, including articles,
+                videos, and social
                 media posts, to
                 effectively connect with and engage audiences across various platforms.</p>
               <a href="#" class="card-link">More &rarr;</a>
@@ -312,7 +335,8 @@
             <div class="card-body">
               <h5 class="card-title">Video Editing</h5>
               <p class="card-text">
-                Video editing at Orbytez: where creativity meets precision, transforming footage into captivating
+                Video editing at Orbytez: where creativity meets precision, transforming footage into
+                captivating
                 narratives with
                 professional expertise and innovative techniques.</p>
               <a href="#" class="card-link">More &rarr;</a>
@@ -325,7 +349,8 @@
             <div class="card-body">
               <h5 class="card-title">Social Media Management</h5>
               <p class="card-text">
-                Orbytez's digital marketing strategy includes SEO, content creation, social media promotion, PPC ads,
+                Orbytez's digital marketing strategy includes SEO, content creation, social media
+                promotion, PPC ads,
                 email campaigns,
                 and influencer collaborations to boost visibility and sales.</p>
               <a href="#" class="card-link">More &rarr;</a>
@@ -338,8 +363,10 @@
             <div class="card-body">
               <h5 class="card-title">Digital Marketing</h5>
               <p class="card-text">
-                Capture your audience with compelling video content. Orbytez offers everything from corporate videos and
-                animated explainers to customer testimonials and product walkthroughs. Let us help you tell your story
+                Capture your audience with compelling video content. Orbytez offers everything from
+                corporate videos and
+                animated explainers to customer testimonials and product walkthroughs. Let us help you
+                tell your story
                 in
                 a way that resonates and engages.</p>
               <a href="#" class="card-link">More &rarr;</a>
@@ -352,7 +379,8 @@
             <div class="card-body">
               <h5 class="card-title">Print Media Desiging</h5>
               <p class="card-text">
-                At Orbytez, we excel in creating eye-catching designs for printed materials like brochures, posters, and
+                At Orbytez, we excel in creating eye-catching designs for printed materials like
+                brochures, posters, and
                 ads, ensuring
                 your message stands out effectively.</p>
               <a href="#" class="card-link">More &rarr;</a>
@@ -380,7 +408,8 @@
               <p class="strategy-step">1</p>
               <div class="Strategy-box">
                 <h6 class="strategy-title">Define Your Objectives</h6>
-                <p class="strategy-des"><span>SMART Goals:</span> Specific, Measurable, Achievable, Relevant,
+                <p class="strategy-des"><span>SMART Goals:</span> Specific, Measurable, Achievable,
+                  Relevant,
                   Time-bound.
                   <br> <span>Example:</span> Increase online sales by 20% within the next 6 months.
                 </p>
@@ -392,8 +421,10 @@
               <p class="strategy-step">2</p>
               <div class="Strategy-box">
                 <h6 class="strategy-title">Know Your Audience</h6>
-                <p class="strategy-des"><span>Customer Personas:</span> Detailed profiles of your target customers.
-                  <br> <span>Market Research: </span> Understand their needs, behaviors, and preferences.
+                <p class="strategy-des"><span>Customer Personas:</span> Detailed profiles of your target
+                  customers.
+                  <br> <span>Market Research: </span> Understand their needs, behaviors, and
+                  preferences.
                 </p>
               </div>
 
@@ -406,10 +437,12 @@
               <div class="Strategy-box">
                 <h6 class="strategy-title">Choose Your Digital Channels</h6>
                 <p class="strategy-des"><span>Website:</span> Foundation of your online presence.
-                  <br> <span>SEO (Search Engine Optimization):</span> Improve visibility in search engines.
+                  <br> <span>SEO (Search Engine Optimization):</span> Improve visibility in search
+                  engines.
                   <br> <span>Content Marketing:</span> Create valuable, relevant content.
                   <br> <span>Social Media:</span> Engage with your audience on platforms they use.
-                  <br> <span>Email Marketing:</span> Nurture leads and maintain customer relationships.
+                  <br> <span>Email Marketing:</span> Nurture leads and maintain customer
+                  relationships.
                   <br> <span>PPC Advertising: </span> Paid campaigns for immediate visibility.
                 </p>
               </div>
@@ -420,9 +453,11 @@
               <p class="strategy-step">4</p>
               <div class="Strategy-box">
                 <h6 class="strategy-title">Content Strategy</h6>
-                <p class="strategy-des"><span>Content Calendar:</span> Plan content creation and distribution.
+                <p class="strategy-des"><span>Content Calendar:</span> Plan content creation and
+                  distribution.
                   <br> <span>Types of Content: </span> Blogs, videos, infographics, etc.
-                  <br> <span>Value Proposition: </span> Clearly communicate what sets your brand apart.
+                  <br> <span>Value Proposition: </span> Clearly communicate what sets your brand
+                  apart.
 
 
                 </p>
@@ -437,7 +472,8 @@
               </div>
               <div class="Strategy-box">
                 <h6 class="strategy-title"> Budget and Resource Allocation</h6>
-                <p class="strategy-des">&#x2022; Allocate budget based on channels that yield the best ROI.
+                <p class="strategy-des">&#x2022; Allocate budget based on channels that yield the best
+                  ROI.
                   <br>&#x2022; Consider outsourcing or hiring specialists if needed.
                 </p>
               </div>
@@ -523,147 +559,147 @@
       <!-- /////////////////////////// PRICING SECITON START HERE ////////////// -->
 
       <!-- <section class="section-pricing" id="price">
-
-        <div class="pricing-heading">
-          <p class="subheading">Pricing Plans</p>
-          <h2 class="heading-secondary">
-            Quality Solutions at <br> Competitive Prices
-          </h2>
-        </div>
-
-
-        <div class="container grid grid--3-cols h-2">
-          <div class="card-collection pricing-collection " id="pricing-basic">
-            <div class="card ">
-              <div class="pricing-card price-basic">
-                <p>for smalll business size</p>
-                <h4>Basic</h4>
-
-              </div>
-              <div class="card-body pricing-body">
-                <h5 class="card-title pricing-title price-basic-title"><span class="dollar">$</span>49.00<span
-                    class="month">/ Month</span></h5>
-                <div class="card-text pricing-text">
-                  <div class="pricing-menu">
-                    <p>HTML5 & CSS3</p>
-                    <p>Bootstrap v5</p>
-                    <p>Responsive Layout</p>
-                    <p>Cross-browser Support</p>
+    
+            <div class="pricing-heading">
+              <p class="subheading">Pricing Plans</p>
+              <h2 class="heading-secondary">
+                Quality Solutions at <br> Competitive Prices
+              </h2>
+            </div>
+    
+    
+            <div class="container grid grid--3-cols h-2">
+              <div class="card-collection pricing-collection " id="pricing-basic">
+                <div class="card ">
+                  <div class="pricing-card price-basic">
+                    <p>for smalll business size</p>
+                    <h4>Basic</h4>
+    
                   </div>
-                  <div class="pricing-tag">
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                  <div class="card-body pricing-body">
+                    <h5 class="card-title pricing-title price-basic-title"><span class="dollar">$</span>49.00<span
+                        class="month">/ Month</span></h5>
+                    <div class="card-text pricing-text">
+                      <div class="pricing-menu">
+                        <p>HTML5 & CSS3</p>
+                        <p>Bootstrap v5</p>
+                        <p>Responsive Layout</p>
+                        <p>Cross-browser Support</p>
+                      </div>
+                      <div class="pricing-tag">
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                      </div>
+    
+                    </div>
+                    <a href="#" class="btn pricing-btn price-basic-btn">Subscribe Now</a>
                   </div>
-
                 </div>
-                <a href="#" class="btn pricing-btn price-basic-btn">Subscribe Now</a>
+              </div>
+              <div class="card-collection pricing-collection " id=" pricing-premium">
+                <div class="card ">
+                  <div class="pricing-card price-premium">
+                    <p>for Medium business size</p>
+                    <h4>Premium</h4>
+    
+                  </div>
+                  <div class="card-body pricing-body">
+                    <h5 class="card-title pricing-title price-premium-title"><span class="dollar">$</span>99.00<span
+                        class="month">/ Month</span></h5>
+                    <div class="card-text pricing-text">
+                      <div class="pricing-menu">
+                        <p>HTML5 & CSS3</p>
+                        <p>Bootstrap v5</p>
+                        <p>Responsive Layout</p>
+                        <p>Cross-browser Support</p>
+                      </div>
+                      <div class="pricing-tag">
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
+                      </div>
+    
+                    </div>
+                    <a href="#" class="btn pricing-btn price-premium-btn">Subscribe Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-collection pricing-collection " id="pricing-gold">
+                <div class="card ">
+                  <div class="pricing-card price-gold">
+                    <p>for large business size</p>
+                    <h4>Gold</h4>
+    
+                  </div>
+                  <div class="card-body pricing-body">
+                    <h5 class="card-title pricing-title price-gold-title"><span
+                        class="dollar dollar-gold">$</span>149.00<span class="month">/ Month</span></h5>
+                    <div class="card-text pricing-text">
+                      <div class="pricing-menu">
+                        <p>HTML5 & CSS3</p>
+                        <p>Bootstrap v5</p>
+                        <p>Responsive Layout</p>
+                        <p>Cross-browser Support</p>
+                      </div>
+                      <div class="pricing-tag">
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                        <p><i class="fa-solid fa-check pricing-icon"></i></p>
+                      </div>
+    
+                    </div>
+                    <a href="#" class="btn pricing-btn price-gold-btn">Subscribe Now</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card-collection pricing-collection " id=" pricing-premium">
-            <div class="card ">
-              <div class="pricing-card price-premium">
-                <p>for Medium business size</p>
-                <h4>Premium</h4>
-
-              </div>
-              <div class="card-body pricing-body">
-                <h5 class="card-title pricing-title price-premium-title"><span class="dollar">$</span>99.00<span
-                    class="month">/ Month</span></h5>
-                <div class="card-text pricing-text">
-                  <div class="pricing-menu">
-                    <p>HTML5 & CSS3</p>
-                    <p>Bootstrap v5</p>
-                    <p>Responsive Layout</p>
-                    <p>Cross-browser Support</p>
-                  </div>
-                  <div class="pricing-tag">
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-xmark pricing-icon"></i></p>
-                  </div>
-
-                </div>
-                <a href="#" class="btn pricing-btn price-premium-btn">Subscribe Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="card-collection pricing-collection " id="pricing-gold">
-            <div class="card ">
-              <div class="pricing-card price-gold">
-                <p>for large business size</p>
-                <h4>Gold</h4>
-
-              </div>
-              <div class="card-body pricing-body">
-                <h5 class="card-title pricing-title price-gold-title"><span
-                    class="dollar dollar-gold">$</span>149.00<span class="month">/ Month</span></h5>
-                <div class="card-text pricing-text">
-                  <div class="pricing-menu">
-                    <p>HTML5 & CSS3</p>
-                    <p>Bootstrap v5</p>
-                    <p>Responsive Layout</p>
-                    <p>Cross-browser Support</p>
-                  </div>
-                  <div class="pricing-tag">
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                    <p><i class="fa-solid fa-check pricing-icon"></i></p>
-                  </div>
-
-                </div>
-                <a href="#" class="btn pricing-btn price-gold-btn">Subscribe Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
+          </section> -->
 
       <!-- /////////////////////////// SKILL SECTION START HERE ////////////// -->
       <!-- <section class="section-skill">
-      <div class="container skill-container">
-        <div class="skill-heading ">
-          <p class="subheading">OUR SKILLS</p>
-          <h2 class="heading-secondary">
-            Catalyzing Exponential Business <br> Growth
-          </h2>
-
-          <div class="skill-group">
-            <div class="skill-card">
-              <p class="skill-card-project"><span>Projects Done</span><br> 15</p>
+          <div class="container skill-container">
+            <div class="skill-heading ">
+              <p class="subheading">OUR SKILLS</p>
+              <h2 class="heading-secondary">
+                Catalyzing Exponential Business <br> Growth
+              </h2>
+    
+              <div class="skill-group">
+                <div class="skill-card">
+                  <p class="skill-card-project"><span>Projects Done</span><br> 15</p>
+                </div>
+                <div class="skill-card">
+                  <p class="skill-card-project"><span>Project Running</span><br> 7</p>
+                </div>
+    
+              </div>
+              <div class="avtaar-img">
+                <div class="avtaar">
+                  <img src="/src/img/avtaar/customer-1.jpg" alt="Customer photo" />
+                  <img src="/src/img/avtaar/customer-2.jpg" alt="Customer photo" />
+                  <img src="/src/img/avtaar/customer-3.jpg" alt="Customer photo" />
+                  <img src="/src/img/avtaar/customer-4.jpg" alt="Customer photo" />
+                  <img src="/src/img/avtaar/customer-5.jpg" alt="Customer photo" />
+                  <img src="/src/img/avtaar/customer-6.jpg" alt="Customer photo" />
+                </div>
+                <p class="avtaar-text">
+                  <span>1,000+</span> Pepople reach out this year!
+                </p>
+              </div>
+              <a href="#form" class="btn hero-btn ">Let's Talk!</a>
             </div>
-            <div class="skill-card">
-              <p class="skill-card-project"><span>Project Running</span><br> 7</p>
+    
+            <div class="skill-img">
+              <img src="/src/img/skill.png" alt="">
             </div>
-
+    
+    
           </div>
-          <div class="avtaar-img">
-            <div class="avtaar">
-              <img src="/src/img/avtaar/customer-1.jpg" alt="Customer photo" />
-              <img src="/src/img/avtaar/customer-2.jpg" alt="Customer photo" />
-              <img src="/src/img/avtaar/customer-3.jpg" alt="Customer photo" />
-              <img src="/src/img/avtaar/customer-4.jpg" alt="Customer photo" />
-              <img src="/src/img/avtaar/customer-5.jpg" alt="Customer photo" />
-              <img src="/src/img/avtaar/customer-6.jpg" alt="Customer photo" />
-            </div>
-            <p class="avtaar-text">
-              <span>1,000+</span> Pepople reach out this year!
-            </p>
-          </div>
-          <a href="#form" class="btn hero-btn ">Let's Talk!</a>
-        </div>
-
-        <div class="skill-img">
-          <img src="/src/img/skill.png" alt="">
-        </div>
-
-
-      </div>
-    </section> -->
+        </section> -->
       <!-- /////////////////////////// TESTIMONIAL SECTION START HERE ////////////// -->
 
       <section class="section-testimonial" id="testimonial">
@@ -689,7 +725,8 @@
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star-half-stroke"></i></li>
               </ul>
-              <h6 class="testimonial-des about-para">"You’re really good at following up with the client so as to ensure
+              <h6 class="testimonial-des about-para">"You’re really good at following up with the client
+                so as to ensure
                 that they are never left in the dark. Keep it up!!"</h6>
               <h6 class="testimonial-author">&#45; Dustin abhishek</h6>
             </div>
@@ -720,21 +757,25 @@
             <div class="about-tag form-tag">
               <div class="tag-list-1">
                 <p class="mob-para">
-                  <i class="fa-solid fa-reply"></i><span class="tag-topic">Fast and Friendly Service </span>
+                  <i class="fa-solid fa-reply"></i><span class="tag-topic">Fast and Friendly Service
+                  </span>
                 </p>
               </div>
               <div class="tag-list-2">
                 <p class="mob-para">
-                  <i class="fa-solid fa-phone"></i><span class="tag-topic">24/7 Telephone Support</span>
+                  <i class="fa-solid fa-phone"></i><span class="tag-topic">24/7 Telephone
+                    Support</span>
                 </p>
 
               </div>
 
             </div>
-            <p class="about-para">At Orbytez, we're committed to providing transparent pricing and exceptional service.
+            <p class="about-para">At Orbytez, we're committed to providing transparent pricing and
+              exceptional service.
               Whether you're
               exploring new
-              digital solutions or looking to enhance your existing systems, we're here to help. Request a free quote
+              digital solutions or looking to enhance your existing systems, we're here to help. Request a
+              free quote
               today
               and take
               the first step toward achieving your business goals.</p>
@@ -793,7 +834,10 @@
         </div>
 
       </section>
+      <!-- /////////////////////////// FOOTER SECTION START HERE ////////////// -->
+
   </main>
+
   <!-- /////////////////////////// FOOTER SECTION START HERE ////////////// -->
   <footer class="footer">
     <div class="container grid grid--footer">
@@ -830,10 +874,12 @@
             Noida, India
           </p>
           <p>
-            <a class="footer-link" href="tel:+91 8077477522">+91 8077477522</a><br />
-            <a class="footer-link" href="tel:+91 9818203403">+91 9818203403</a><br />
-            <a class="footer-link" href="tel:+91 7453085088">+91 7453085088</a><br />
-            <a class="footer-link" href="mailto:info@orbytez.in ">info@orbytez.in</a>
+            <a class="footer-link" href="tel:+918077477522" onclick="">+91 8077477522</a><br />
+            <a class="footer-link" href="tel:+919818203403">+91 9818203403</a><br />
+            <a class="footer-link" href="tel:+917453085088">+91 7453085088</a><br />
+            <a class="footer-link" href="mailto:info@orbytez.com">info@orbytez.in</a>
+
+
           </p>
         </address>
       </div>
